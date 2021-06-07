@@ -1,0 +1,116 @@
+@font-face {
+	font-family: "Futura";
+	src: url("fonts/FuturaPT-Book.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Futura";
+	color: 000;
+	font-size: 16;
+}
+
+.container {
+	
+}
+
+.promo {							/*Стили формы блока*/
+	width: 1920px;
+	height: 46px;
+	background: #2B2B2B;
+}
+
+.promo span {						/*Настройки промо текста*/
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 21pt;
+	
+}
+
+.logo {								/*Выравнивание лого*/
+	display: flex;
+	justify-content: center;
+}
+
+.nav {								/*Цвет-форма блока*/
+	height: 80px;
+	width: auto;
+	background-color: #F5F7FF;
+	
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 921px 506px 493px;
+}
+
+.search {
+	padding-top: 16px;
+}
+
+.icons-header {
+	padding-left: 120px;
+}
+
+.icons-header img {
+	padding-right: 50px;
+}
+
+.profile {
+	padding-top: 30px;
+}
+
+.menu {
+	padding-left: 261px;
+	padding-top: 24px;
+}
+.menu a{
+	font-size: 20px;
+	font-weight: 550;
+	text-decoration: none;
+	padding-left: 50px;
+}
+
+.first-screen {
+	
+	height: 800px;
+	width: 1920px;
+	background-image: url(files/1th-screen.jpg);
+	
+}
+
+
+
+.first-screen p{
+	margin-top: 0;
+	padding-left: 261px;
+	padding-top: 204px;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.button {
+	height: 50px;
+	width: 240px;
+	background-image: url(files/button.svg);
+	margin-left: 261px;
+	margin-top: 60px;
+}
+
+.button span{
+	font-size: 14px;
+	color: white;
+	display:flex;
+	padding-top: 16px;
+	padding-left: 67px;
+}
+
+.slider {
+	margin-top: 249px;
+	margin-left: 903px;
+}
